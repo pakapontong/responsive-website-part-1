@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive website</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- google icon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header section starts -->
+    <header class="header">
+      <a href="#home" class="logo"><i class="fa-solid fa-igloo"></i></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="items-cart-container">
+        <div class="item-cart">
+          <span class="fas fa-times"></span>
+          <img
+            src="https://images.unsplash.com/photo-1590341328520-63256eb32bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+            alt=""
+          />
+          <div class="content">
+            <h3>Item Cart</h3>
+            <div class="price">250 THB</div>
+          </div>
+        </div>
+        <div class="item-cart">
+          <span class="fas fa-times"></span>
+          <img
+            src="https://images.unsplash.com/photo-1590341328520-63256eb32bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+            alt=""
+          />
+          <div class="content">
+            <h3>Item Cart</h3>
+            <div class="price">250 THB</div>
+          </div>
+        </div>
+        <div class="item-cart">
+          <span class="fas fa-times"></span>
+          <img
+            src="https://images.unsplash.com/photo-1590341328520-63256eb32bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80"
+            alt=""
+          />
+          <div class="content">
+            <h3>Item Cart</h3>
+            <div class="price">250 THB</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h1>Lego in the morning</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam velit
+          architecto tempore, similique impedit consequatur!
+        </p>
+        <a href="#home" class="btn">get your now</a>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+      <div class="row">
+        <div class="image">
+          <img
+            src="https://images.unsplash.com/photo-1621611141464-a06af0c5c623?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3>What Makes Our Logo Special?</h3>
+          <p>
+            Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. A Officiis
+            Fuga Molestiae, Mollitia Modi Est Facere Dolorum Eveniet, Sapiente
+            Laborum Minus Illum, In Quis Sint. Laboriosam Minus Cupiditate Fuga
+            Rem Ad Veritatis Aspernatur,
+          </p>
+          <a href="#about" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+      <h1 class="heading">our <span>menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img
+            src="https://images.unsplash.com/photo-1600637453281-b121a101f1fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1944&q=80"
+            alt=""
+          />
+          <h3>Lego part</h3>
+          <div class="price">250 THB <span>300 THB</span></div>
+          <a href="#menu" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img
+            src="https://images.unsplash.com/photo-1600637453281-b121a101f1fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1944&q=80"
+            alt=""
+          />
+          <h3>Lego part</h3>
+          <div class="price">250 THB <span>300 THB</span></div>
+          <a href="#menu" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img
+            src="https://images.unsplash.com/photo-1600637453281-b121a101f1fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1944&q=80"
+            alt=""
+          />
+          <h3>Lego part</h3>
+          <div class="price">250 THB <span>300 THB</span></div>
+          <a href="#menu" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img
+            src="https://images.unsplash.com/photo-1600637453281-b121a101f1fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1944&q=80"
+            alt=""
+          />
+          <h3>Lego part</h3>
+          <div class="price">250 THB <span>300 THB</span></div>
+          <a href="#menu" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img
+            src="https://images.unsplash.com/photo-1600637453281-b121a101f1fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1944&q=80"
+            alt=""
+          />
+          <h3>Lego part</h3>
+          <div class="price">250 THB <span>300 THB</span></div>
+          <a href="#menu" class="btn">Add to cart</a>
+        </div>
+        <div class="box">
+          <img
+            src="https://images.unsplash.com/photo-1600637453281-b121a101f1fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1944&q=80"
+            alt=""
+          />
+          <h3>Lego part</h3>
+          <div class="price">250 THB <span>300 THB</span></div>
+          <a href="#menu" class="btn">Add to cart</a>
+        </div>
+      </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- product section start -->
+    <section class="products" id="products">
+      <h1 class="heading">our <span>product</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#products" class="fas fa-shopping-cart"></a>
+            <a href="#products" class="fas fa-heart"></a>
+            <a href="#products" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1609518833016-e36fa49dbd55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Best logo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">150THB <span>350 THB</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#products" class="fas fa-shopping-cart"></a>
+            <a href="#products" class="fas fa-heart"></a>
+            <a href="#products" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1609518833016-e36fa49dbd55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Best logo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">150THB <span>350 THB</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#products" class="fas fa-shopping-cart"></a>
+            <a href="#products" class="fas fa-heart"></a>
+            <a href="#products" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1609518833016-e36fa49dbd55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3>Best logo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">150THB <span>350 THB</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section ends -->
+
+    <!-- review section start -->
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            repellendus cupiditate optio temporibus perferendis veniam? Minima
+            voluptatem libero, maxime eligendi hic aspernatur, numquam
+            laboriosam esse corporis officia, doloribus animi excepturi.
+          </p>
+          <i class="fa-solid fa-quote-right quote"></i>
+
+          <img
+            src="https://images.unsplash.com/photo-1622038492302-9e476cc5a584?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80"
+            alt=""
+          />
+          <h3>Hondo ne</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-quote-left quote"></i>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            repellendus cupiditate optio temporibus perferendis veniam? Minima
+            voluptatem libero, maxime eligendi hic aspernatur, numquam
+            laboriosam esse corporis officia, doloribus animi excepturi.
+          </p>
+          <i class="fa-solid fa-quote-right quote"></i>
+
+          <img
+            src="https://images.unsplash.com/photo-1622038492302-9e476cc5a584?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80"
+            alt=""
+          />
+          <h3>Hondo ne</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15938192.453295039!2d96.11455284350723!3d12.768101975867811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102eac742995eab%3A0x78f9657454d77e8!2z4Lih4Lir4Liy4Lin4Li04LiX4Lii4Liy4Lil4Lix4Lii4LiY4Lij4Lij4Lih4Lio4Liy4Liq4LiV4Lij4LmMIOC4qOC4ueC4meC4ouC5jOC4nuC4seC4l-C4ouC4sg!5e0!3m2!1sth!2sth!4v1696411996081!5m2!1sth!2sth"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="#contact">
+          <h3>get in touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="Number" />
+          </div>
+          <input type="submit" class="btn" value="contact now" />
+        </form>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- blogs section start -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1522063166980-883cc801184f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <a href="#blogs" class="title">Lego and refresh</a>
+            <span>by admin / 21st may, 2023</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Aspernatur quis impedit minus nisi officia quam!
+            </p>
+            <a href="#blogs" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1522063166980-883cc801184f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <a href="#blogs" class="title">Lego and refresh</a>
+            <span>by admin / 21st may, 2023</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Aspernatur quis impedit minus nisi officia quam!
+            </p>
+            <a href="#blogs" class="btn">Read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1522063166980-883cc801184f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <a href="#blogs" class="title">Lego and refresh</a>
+            <span>by admin / 21st may, 2023</span>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Aspernatur quis impedit minus nisi officia quam!
+            </p>
+            <a href="#blogs" class="btn">Read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blogs section ends -->
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-youtube"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+
+      <div class="credit">
+        created by <span>mr. web designer</span> | all rights reserved.
+      </div>
+    </section>
+
+    <!-- footer end -->
+
+    <!-- JS -->
+    <script src="app.js"></script>
+
+    <!-- ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
